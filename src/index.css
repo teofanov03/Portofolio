@@ -1,0 +1,115 @@
+
+@import "tailwindcss";
+
+
+
+body{
+    background-color: hsl(0, 0%, 10%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.change{
+    @apply 
+        px-4 py-2 rounded cursor-pointer transition-colors duration-300 hover:text-purple-300
+          hover:bg-purple-600
+          active:text-purple-200;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.aspnet {
+  background-color: #512bd4;
+  color: white;
+}
+.aspnet-btn {
+  background-color: #ffffff;
+  color: #512bd4;
+}
+.aspnet-btn:hover {
+  background-color: #e0e0e0;
+}
+
+
+.react {
+  background-color: #61dafb;
+  color: black;
+}
+.react-btn {
+  background-color: #20232a;
+  color: #61dafb;
+}
+.react-btn:hover {
+  background-color: #333333;
+}
+
+
+.php {
+  background-color: #8892bf;
+  color: white;
+}
+.php-btn {
+  background-color: #ffffff;
+  color: #8892bf;
+}
+.php-btn:hover {
+  background-color: #d1d1d1;
+}
+
+
+.c {
+  background-color: #283593;
+  color: white;
+}
+.c-btn {
+  background-color: white;
+  color: #283593;
+}
+.c-btn:hover {
+  background-color: #e0e0e0;
+}
+
+
+.cpp {
+  background-color: #00599c;
+  color: white;
+}
+.cpp-btn {
+  background-color: white;
+  color: #00599c;
+}
+.cpp-btn:hover {
+  background-color: #e0e0e0;
+}
+
+
+.csharp {
+  background-color: #68217a;
+  color: white;
+}
+.csharp-btn {
+  background-color: white;
+  color: #68217a;
+}
+.csharp-btn:hover {
+  background-color: #e0e0e0;
+}
+
+
+.java {
+  background-color: #f89820;
+  color: black;
+}
+.java-btn {
+  background-color: white;
+  color: #f89820;
+}
+.java-btn:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
