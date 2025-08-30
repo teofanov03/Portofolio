@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './navbar'
 import Home from './home'
@@ -9,7 +8,7 @@ import ScrollToTop from './ScrollToTop'
 import Animation from './animation'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
