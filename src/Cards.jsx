@@ -6,7 +6,7 @@ function Cards({ image, projectName, programClass, programName, link, githubLink
       <img className="w-full" src={image} alt={projectName} />
       <div className="px-6 py-4">
         <h2 className="text-xl font-bold mb-2">{projectName}</h2>
-        <p className="text-gray-100 text-base">{programName}</p>
+        <p className="text-base">{programName}</p>
       </div>
       <div className="px-6 py-4 flex gap-4">
         {link && (

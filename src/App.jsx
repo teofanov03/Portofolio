@@ -1,4 +1,5 @@
 import './App.css'
+
 import Navbar from './navbar'
 import Home from './home'
 import Education from './Education'
@@ -8,7 +9,7 @@ import ScrollToTop from './ScrollToTop'
 import Animation from './animation'
 
 function App() {
-  
+    
 
   return (
     <>

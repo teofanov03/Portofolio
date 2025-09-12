@@ -42,8 +42,8 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
           >
             <a href="#aspnet"><li className="p-2 hover:bg-purple-600">ASP.NET</li></a>
             <a href="#php"><li className="p-2 hover:bg-purple-600">PHP</li></a>
-            <a href="#php"><li className="p-2 hover:bg-purple-600">Javascript</li></a>
-            <a href="#php"><li className="p-2 hover:bg-purple-600">Java</li></a>
+            <a href="#javascript"><li className="p-2 hover:bg-purple-600">Javascript</li></a>
+            <a href="#java"><li className="p-2 hover:bg-purple-600">Java</li></a>
             <a href="#c"><li className="p-2 hover:bg-purple-600">C</li></a>
             <a href="#c++"><li className="p-2 hover:bg-purple-600">C++</li></a>
             <a href="#react"><li className="p-2 hover:bg-purple-600">React</li></a>

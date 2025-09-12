@@ -21,15 +21,15 @@ export default function Contact() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           
           <div className="bg-purple-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform flex flex-col items-center">
-            <FaEnvelope className="text-3xl mb-2 text-purple-300" />
-            <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <a
-              href="mailto:teofanovdjordje03@gmail.com"
-              className="text-purple-300 hover:underline"
-            >
-              teofanovdjordje03@gmail.com
-            </a>
-          </div>
+          <FaEnvelope className="text-3xl mb-2 text-purple-300" />
+          <h3 className="text-xl font-semibold mb-2">Email</h3>
+          <a
+            href="mailto:teofanovdjordje03@gmail.com?subject=Hello%20Djordje&body=I%20saw%20your%20portfolio%20and%20..."
+            className="text-purple-300 hover:underline"
+          >
+            teofanovdjordje03@gmail.com
+          </a>
+</div>
 
           
           <div className="bg-purple-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform flex flex-col items-center">
@@ -80,17 +80,16 @@ export default function Contact() {
 
           
           <div className="bg-purple-800 p-6 rounded-lg shadow-lg hover:scale-105 transition-transform flex flex-col items-center">
-            <FaFileDownload className="text-3xl mb-2 text-purple-300" />
-            <h3 className="text-xl font-semibold mb-2">Download CV</h3>
-            <a
-              href="/CV_Djordje_Teofanov.docx"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-purple-300 hover:underline"
-            >
-              Get CV
-            </a>
-          </div>
+          <FaFileDownload className="text-3xl mb-2 text-purple-300" />
+          <h3 className="text-xl font-semibold mb-2">Download CV</h3>
+          <a
+            href="/Portofolio/CV_Djordje_Teofanov.docx"
+            download="CV_Djordje_Teofanov.docx"
+            className="text-purple-300 hover:underline"
+          >
+            Get CV
+          </a>
+</div>
         </div>
       </div>
     </section>

@@ -109,7 +109,19 @@ html {
   background-color: #f0f0f0;
 }
 
+.javascript {
+  background-color: #f7df1e; 
+  color: black;
+}
 
+.javascript-btn {
+  background-color: black;
+  color: #f7df1e;
+}
+
+.javascript-btn:hover {
+  background-color: #333333; 
+}
 
 
 
