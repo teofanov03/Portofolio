@@ -1,5 +1,8 @@
+
+
 function Cards({ image, projectName, programClass, programName, link, githubLink }) {
   return (
+  
     <div
       className={`max-w-sm rounded overflow-hidden shadow-lg ${programClass} transition-transform transform hover:scale-105`}
     >
@@ -31,6 +34,7 @@ function Cards({ image, projectName, programClass, programName, link, githubLink
         )}
       </div>
     </div>
+
   );
 }
 

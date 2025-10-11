@@ -6,6 +6,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
   const [open, setOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+;
   
   useEffect(() => {
     const checkScreenSize = () => setIsMobile(window.innerWidth < 768);
@@ -15,10 +16,10 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
   }, []);
 
   return (
-    <div className="bg-purple-700 p-4 font-bold border-purple-900 sticky top-0 z-50 border-b-4">
+    <div className="bg-purple-700 p-4 font-bold border-purple-900 sticky top-0 z-50 border-b-4 ">
       <ul className="list-none flex justify-evenly text-white text-center text-2xl relative">
         <a href="#Home"><li className="change">Home</li></a>
-        <a href="#Education"><li className="change">Education</li></a>
+        <a href="#Education"><li className="change" >Education</li></a>
 
         
         <li
@@ -43,11 +44,8 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
             <a href="#aspnet"><li className="p-2 hover:bg-purple-600">ASP.NET</li></a>
             <a href="#php"><li className="p-2 hover:bg-purple-600">PHP</li></a>
             <a href="#javascript"><li className="p-2 hover:bg-purple-600">Javascript</li></a>
-            <a href="#java"><li className="p-2 hover:bg-purple-600">Java</li></a>
-            <a href="#c"><li className="p-2 hover:bg-purple-600">C</li></a>
-            <a href="#c++"><li className="p-2 hover:bg-purple-600">C++</li></a>
             <a href="#react"><li className="p-2 hover:bg-purple-600">React</li></a>
-            <a href="#python"><li className="p-2 hover:bg-purple-600">Python</li></a>
+            
           </ul>
         </li>
 

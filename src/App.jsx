@@ -1,31 +1,32 @@
-import './App.css'
-
-import Navbar from './navbar'
-import Home from './home'
-import Education from './Education'
-import Projects from './projects'
-import Contact from './Contact'
-import ScrollToTop from './ScrollToTop'
-import Animation from './animation'
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Animation from "./components/Animation";
 
 function App() {
-    
-
   return (
-    <>
-    <Navbar/>
-    <Animation><Home/></Animation>
-   <Animation> <Education/></Animation>
-    <Animation><Projects/></Animation>
-    <Contact/>
-    <ScrollToTop/>
+    <div className="App bg-gray-900">
+      <Navbar />
 
+      <Animation>
+        <Home />
+      </Animation>
 
+      <Animation>
+        <Education />
+      </Animation>
 
+      <Animation>
+        <Projects />
+      </Animation>
 
-    
-     </>
-  )
+      <Animation>
+        <Contact />
+      </Animation>
+    </div>
+  );
 }
 
-export default App
+export default App;

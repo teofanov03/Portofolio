@@ -6,14 +6,31 @@ import {
   FaMapMarkerAlt, 
   FaFileDownload 
 } from "react-icons/fa";
-
+import SplitText from "./SplitText";
 export default function Contact() {
   return (
-    <section id="Contact" className="py-16 bg-purple-900 text-white">
+    <section id="Contact" className="scroll-mt-20 py-16 bg-purple-900 text-white">
       <div className="max-w-4xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4 border-b border-gray-700 pb-2 inline-block">
-          Contact
-        </h2>
+        
+        
+          
+          <SplitText
+          text="Contact"
+          className="text-3xl font-bold mb-4 border-b border-gray-700 pb-2 inline-block"
+          delay={100}
+          duration={0.6}
+          ease="power3.out"
+          splitType="chars"
+          from={{ opacity: 0, y: 40 }}
+          to={{ opacity: 1, y: 0 }}
+          threshold={0.1}
+          rootMargin="-100px"
+          
+          textAlign="center"
+          ></SplitText>
+          
+      
+       
         <p className="text-lg text-gray-300 mb-8">
           Feel free to reach out through any of the following.
         </p>
